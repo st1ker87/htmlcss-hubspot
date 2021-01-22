@@ -21,7 +21,47 @@ body {
   margin: 0 auto;
 }
 
+.rel {
+  position: relative;
+}
+.abs {
+  position: absolute;
+}
+.right {
+  right :0;
+}
+.light_font {
+  font-size: 0.8em;
+}
+.bigger_font {
+  font-size: 3.5em;
+}
+
+/* gestione btn */
+.btn_small {
+  border-radius: 10px;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+.btn_big {
+  border-radius: 5px;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+.white {
+  background-color: white;
+  border: 1px solid rgb(217, 87, 31);
+  color: rgb(217, 87, 31);
+}
+.orange {
+  background-color: rgb(217, 87, 31);
+  color: white;
+}
+
 /* header */
+header nav {
+  line-height: 60px;
+}
 .fissa {
   position: fixed;
   height: 60px;
@@ -29,11 +69,55 @@ body {
   top: 0;
   z-index: 999;
   background-color: lightgrey;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid grey;
 }
 
+
 .first {
-height: 300vh;
-background-color: green;
-margin-top: 100px;
+height: 60px;
+margin-top: 60px;
+}
+.first img {
+  margin-top: 15px;
+}
+.first i {
+  margin-left: 10px;
+}
+
+header nav ul li {
+  display: inline;
+  list-style: none;
+  padding: 0 15px;
+}
+
+header li a {
+  text-decoration: none;
+  color: black;
+  /* padding: 10px; */
+}
+
+.jumbotron {
+  height: 80vh;
+  background-image: url("../img/jumbotron.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  background-color: #fef4ef;
+}
+.jumbotron .container.rel .abs {
+  width: 50%;
+  top: 10vh
+}
+.jumbotron p,
+.jumbotron a {
+  margin: 40px 0;
+}
+
+.green_bar {
+  position: absolute;
+  bottom: 0;
+  height: 85px;
+  width: 100%;
+  background-color: rgb(124, 210, 200);
+  border: 2px solid rgb(60, 60, 60);
 }

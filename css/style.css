@@ -1,0 +1,39 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* default */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* header */
+.fissa {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  background-color: lightgrey;
+  border-bottom: 1px solid black;
+}
+
+.first {
+height: 300vh;
+background-color: green;
+margin-top: 100px;
+}

@@ -44,6 +44,12 @@ body {
 .boxed {
   border: 1px solid lightgrey;
   background-color: white;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.box_image {
+  height: 15vh;
 }
 
 .rel {
@@ -58,13 +64,16 @@ body {
 .left {
   float: left;
 }
+.middle {
+  margin: 20px 5% 0;
+}
 
 /* formattazione testo */
 .light_font {
   font-size: 0.8em;
 }
 .bigger_font {
-  font-size: 3.5em;
+  font-size: 3em;
 }
 .centered {
   text-align: center;
@@ -79,7 +88,12 @@ body {
   line-height: 2em;
 }
 .space {
-  margin: 40px 0;
+  margin: 20px 0;
+}
+.inline_list {
+  display: inline;
+  list-style: none;
+  padding-right: 15px;
 }
 
 
@@ -127,6 +141,7 @@ height: 60px;
 margin-top: 60px;
 }
 .first img {
+  width: 100%;
   margin-top: 15px;
 }
 .first i {
@@ -155,7 +170,7 @@ header li a {
 }
 .jumbotron .container.rel .abs {
   width: 50%;
-  top: 10vh
+  top: 10vh;
 }
 
 .green_bar {
@@ -170,10 +185,45 @@ header li a {
 
 /* impostazioni main */
 main .boxed.w_100 {
-  padding: 10vh 5%;
+  padding: 30px 10px;
 }
+
 main .boxed img {
-  height: 15vh;
+
   width: 100%;
-  margin: 20px 0;
+  margin-bottom: 15px;
 }
+
+main .w_60 i {
+  color: rgb(217, 87, 31);
+  padding-right: 15px;
+  margin: 15px 0;
+}
+
+main p {
+  margin: 15px 0;
+}
+ main .w_30 h2 {
+   margin-bottom: 20px;
+ }
+
+.bar::after {
+   content: "__________________";
+ }
+
+main .w_30 ul {
+  margin-top: 20px;
+}
+main .w_30 li {
+   list-style: none;
+   text-align: left;
+ }
+
+ .boxed.w_30 {
+   margin-top: 50px;
+ }
+
+ .boxed.w_30 i {
+   margin-right: 10px;
+  color: rgb(217, 87, 31);
+ }

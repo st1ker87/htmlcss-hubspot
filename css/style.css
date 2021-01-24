@@ -16,9 +16,34 @@ body {
   clear: both;
 }
 
+/* generiche */
 .container {
   width: 80%;
+}
+
+.light_background {
+  background-color: rgb(222, 230, 232);
+}
+
+.container_center {
   margin: 0 auto;
+}
+
+.w_100 {
+  width: 100%;
+}
+
+.w_60 {
+  width: 60%;
+}
+
+.w_30 {
+  width: 30%;
+}
+
+.boxed {
+  border: 1px solid lightgrey;
+  background-color: white;
 }
 
 .rel {
@@ -27,15 +52,36 @@ body {
 .abs {
   position: absolute;
 }
-.right {
+.dx {
   right :0;
 }
+.left {
+  float: left;
+}
+
+/* formattazione testo */
 .light_font {
   font-size: 0.8em;
 }
 .bigger_font {
   font-size: 3.5em;
 }
+.centered {
+  text-align: center;
+}
+.capitalized {
+  text-transform: capitalize;
+}
+.uppered {
+  text-transform: uppercase;
+}
+.double {
+  line-height: 2em;
+}
+.space {
+  margin: 40px 0;
+}
+
 
 /* gestione btn */
 .btn_small {
@@ -47,6 +93,7 @@ body {
   border-radius: 5px;
   padding: 15px 25px;
   text-decoration: none;
+  line-height: 44px;
 }
 .white {
   background-color: white;
@@ -56,6 +103,10 @@ body {
 .orange {
   background-color: rgb(217, 87, 31);
   color: white;
+}
+.btn_small:hover,
+.btn_big:hover {
+  box-shadow: 2px 2px 1px grey;
 }
 
 /* header */
@@ -68,10 +119,8 @@ header nav {
   width: 100%;
   top: 0;
   z-index: 999;
-  background-color: lightgrey;
   border-bottom: 1px solid grey;
 }
-
 
 .first {
 height: 60px;
@@ -108,10 +157,6 @@ header li a {
   width: 50%;
   top: 10vh
 }
-.jumbotron p,
-.jumbotron a {
-  margin: 40px 0;
-}
 
 .green_bar {
   position: absolute;
@@ -119,5 +164,16 @@ header li a {
   height: 85px;
   width: 100%;
   background-color: rgb(124, 210, 200);
-  border: 2px solid rgb(60, 60, 60);
+  border-top: 2px solid rgb(60, 60, 60);
+  border-bottom: 2px solid rgb(60, 60, 60);
+}
+
+/* impostazioni main */
+main .boxed.w_100 {
+  padding: 10vh 5%;
+}
+main .boxed img {
+  height: 15vh;
+  width: 100%;
+  margin: 20px 0;
 }

@@ -41,6 +41,10 @@ body {
   width: 30%;
 }
 
+.w_25 {
+  width: 25%;
+}
+
 .boxed {
   border: 1px solid lightgrey;
   background-color: white;
@@ -73,7 +77,10 @@ body {
   font-size: 0.8em;
 }
 .bigger_font {
-  font-size: 3em;
+  font-size: 3.5em;
+}
+.big_font {
+  font-size: 2.5em;
 }
 .centered {
   text-align: center;
@@ -89,6 +96,9 @@ body {
 }
 .space {
   margin: 20px 0;
+}
+.space_bottom {
+  margin-bottom: 20px;
 }
 .inline_list {
   display: inline;
@@ -176,7 +186,7 @@ header li a {
 .green_bar {
   position: absolute;
   bottom: 0;
-  height: 85px;
+  height: 13vh;
   width: 100%;
   background-color: rgb(124, 210, 200);
   border-top: 2px solid rgb(60, 60, 60);
@@ -219,11 +229,41 @@ main .w_30 li {
    text-align: left;
  }
 
- .boxed.w_30 {
-   margin-top: 50px;
+ .light_background .boxed {
+   margin-bottom: 50px;
  }
 
  .boxed.w_30 i {
    margin-right: 10px;
   color: rgb(217, 87, 31);
+ }
+
+ #gradient {
+   padding: 40px 0;
+   background-image: linear-gradient(to right,rgb(80, 172, 164),rgb(47, 198, 180));
+   color: white;
+ }
+
+ .logo_tab {
+   margin-bottom: 10px;
+ }
+
+ #gradient>.container>p {
+   margin: 40px 0;
+ }
+
+ #gradient .w_25 {
+   padding: 20px;
+ }
+
+ #gradient .row:first-child {
+   border-bottom: 1px solid white;
+ }
+
+ #gradient .w_25:nth-child(1n+2) {
+   border-left: 1px solid white;
+ }
+
+ .table {
+   margin-bottom: 50px;
  }

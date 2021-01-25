@@ -310,3 +310,29 @@ main .w_30 li {
 .w_50 p {
   margin: 40px 0;
 }
+
+/* FOOTER */
+
+footer {
+  background-color: rgb(41, 64, 64);
+  color: lightgrey;
+}
+footer li {
+  list-style: none;
+}
+footer .btn_small {
+  line-height: 4em;
+  background-color: lightgrey;
+  color: rgb(41, 64, 64);
+}
+footer li i {
+  margin-left: 10px;
+}
+footer nav ul li:first-child {
+  line-height: 4em;
+  color: white;
+  font-weight: 600;
+}
+footer .w_25 {
+  margin-bottom: 60px;
+}

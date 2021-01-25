@@ -326,7 +326,7 @@ footer .btn_small {
   color: rgb(41, 64, 64);
 }
 footer li i {
-  margin-left: 10px;
+  margin-right: 20px;
 }
 footer nav ul li:first-child {
   line-height: 4em;
@@ -335,4 +335,23 @@ footer nav ul li:first-child {
 }
 footer .w_25 {
   margin-bottom: 60px;
+}
+footer .language a {
+  color: lightgrey;
+  text-decoration: none;
+}
+footer hr {
+  margin: 20px 0;
+}
+.copyright {
+  margin-bottom: 20px;
+  line-height: 2em;
+  color: white;
+}
+
+footer .abs a {
+  margin-left: 15px;
+  color: lightgrey;
+  text-decoration: none;
+
 }

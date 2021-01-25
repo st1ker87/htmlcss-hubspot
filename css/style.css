@@ -41,6 +41,10 @@ body {
   width: 30%;
 }
 
+.w_50 {
+  width: 50%;
+}
+
 .w_25 {
   min-height: 70px;
   width: 25%;
@@ -214,81 +218,95 @@ main .w_60 i {
 main p {
   margin: 15px 0;
 }
- main .w_30 h2 {
-   margin-bottom: 20px;
- }
+
+main .w_30 h2 {
+  margin-bottom: 20px;
+}
 
 .bar::after {
-   content: "__________________";
- }
+  content: "__________________";
+}
 
 main .w_30 ul {
   margin-top: 20px;
 }
 main .w_30 li {
-   list-style: none;
-   text-align: left;
- }
+  list-style: none;
+  text-align: left;
+}
 
- .light_background .boxed {
-   margin-bottom: 50px;
- }
+.light_background .boxed {
+  margin-bottom: 50px;
+}
 
- .boxed.w_30 i {
-   margin-right: 10px;
+.boxed.w_30 i {
+  margin-right: 10px;
   color: rgb(217, 87, 31);
- }
+}
 
- #gradient {
-   padding: 40px 0;
-   background-image: linear-gradient(to right,rgb(80, 172, 164),rgb(47, 198, 180));
-   color: white;
- }
+#gradient {
+  padding: 40px 0;
+  background-image: linear-gradient(to right,rgb(80, 172, 164),rgb(47, 198, 180));
+  color: white;
+}
 
- .logo_tab {
-   margin-bottom: 10px;
- }
+.logo_tab {
+  margin-bottom: 10px;
+}
 
- #gradient>.container>p {
-   margin: 40px 0;
- }
+#gradient>.container>p {
+  margin: 40px 0;
+}
 
- #gradient .w_25 {
-   padding: 20px;
- }
+#gradient .w_25 {
+  padding: 20px;
+}
 
- #gradient .row:first-child {
-   border-bottom: 1px solid white;
- }
+#gradient .row:first-child {
+  border-bottom: 1px solid white;
+}
 
- #gradient .w_25:nth-child(1n+2) {
-   border-left: 1px solid white;
- }
+#gradient .w_25:nth-child(1n+2) {
+  border-left: 1px solid white;
+}
 
- .table {
-   margin-bottom: 50px;
- }
+.table {
+  margin-bottom: 50px;
+}
 
- .partners .w_30 {
-   margin: 20px 0;
-   padding: 0 8%;
- }
+.partners .w_30 {
+  margin: 20px 0;
+  padding: 0 8%;
+}
 
- .partners .w_60 {
-   /* margin: 20px auto; */
-   vertical-align: middle;
- }
+.partners .w_60 {
+  /* margin: 20px auto; */
+  vertical-align: middle;
+}
 
- .partners .logo_tab {
-   width: 80%;
-   max-height: 50px;
-   vertical-align: middle;
- }
+.partners .logo_tab {
+  width: 80%;
+  max-height: 50px;
+  vertical-align: middle;
+}
 
- .partners .table {
-   margin-top: 60px;
- }
- .partners .table .row .logo_tab {
-   position: absolute;
-   transform: translateY(-50%);
- }
+.partners .table {
+  margin-top: 60px;
+}
+.partners .table .row .logo_tab {
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+.start a {
+  margin: 200px 0;
+}
+
+.doppio_margine {
+  margin: 20px 0;
+  padding-right: 50px;
+}
+
+.w_50 p {
+  margin: 40px 0;
+}

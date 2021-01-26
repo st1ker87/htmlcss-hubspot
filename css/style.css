@@ -6,6 +6,10 @@
 }
 
 /* DEFAULT */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -160,12 +164,15 @@ body {
 header nav {
   line-height: 60px;
 }
-.fissa {
+.fix {
+  z-index: 999;
   position: fixed;
+}
+
+.fissa {
   height: 60px;
   width: 100%;
   top: 0;
-  z-index: 999;
   border-bottom: 1px solid grey;
 }
 
@@ -315,6 +322,8 @@ main .w_30 li {
   margin-top: 60px;
 }
 .partners .table .row .logo_tab {
+  /* vertical-align: middle; */
+
   position: absolute;
   transform: translateY(-50%);
 }
@@ -382,4 +391,26 @@ footer .abs a {
   margin-left: 15px;
   color: lightgrey;
   text-decoration: none;
+}
+
+/* BOTTONE TORNA SU */
+.up {
+  right: 2.5%;
+  bottom: 1px;
+  /* width: 5%;
+  height: 50px; */
+  /* background-color: rgb(184, 184, 184);
+  border-radius: 50%;
+  line-height: 30px; */
+}
+.up a {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: rgb(116, 116, 116);
+  color: white;
+  text-decoration: none;
+}
+.up a:hover {
+  background-color: rgba(116, 116, 116, 0.5);
+  box-shadow: rgba(221, 106, 42, 0.39) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
 }

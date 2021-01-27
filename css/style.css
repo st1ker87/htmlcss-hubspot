@@ -144,22 +144,32 @@ body {
   line-height: 44px;
 }
 
+.btn_small:hover,
+.btn_big:hover {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
 .white {
   background-color: white;
   border: 1px solid rgb(217, 87, 31);
   color: rgb(217, 87, 31);
+}
+.white:hover {
+  background-color: rgba(255, 167, 117, 0.64);
 }
 
 .orange {
   background-color: rgb(217, 87, 31);
   color: white;
 }
-
-.btn_small:hover,
-.btn_big:hover {
-  box-shadow: 2px 2px 1px grey;
+.orange:hover {
+  background-color: rgba(215, 89, 17, 0.61);
 }
 
+.fa-search:hover {
+  color: rgb(60, 165, 184);
+  font-size: 1.5em;
+}
 /* HEADER */
 header nav {
   line-height: 60px;
@@ -174,6 +184,7 @@ header nav {
   width: 100%;
   top: 0;
   border-bottom: 1px solid grey;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .first {
@@ -224,6 +235,11 @@ header li a {
 /* MAIN */
 main .boxed.w_100 {
   padding: 30px 10px;
+}
+
+.box_focus:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
 }
 
 .half_hr {
@@ -372,11 +388,6 @@ footer .w_25 {
   margin-bottom: 60px;
 }
 
-footer .language a {
-  color: lightgrey;
-  text-decoration: none;
-}
-
 footer hr {
   margin: 20px 0;
 }
@@ -387,21 +398,23 @@ footer hr {
   color: white;
 }
 
-footer .abs a {
-  margin-left: 15px;
+footer a {
   color: lightgrey;
   text-decoration: none;
+}
+
+footer a:hover {
+  color: rgb(67, 204, 200);
+}
+
+footer .abs a {
+  margin-left: 15px;
 }
 
 /* BOTTONE TORNA SU */
 .up {
   right: 2.5%;
   bottom: 1px;
-  /* width: 5%;
-  height: 50px; */
-  /* background-color: rgb(184, 184, 184);
-  border-radius: 50%;
-  line-height: 30px; */
 }
 .up a {
   padding: 10px;
